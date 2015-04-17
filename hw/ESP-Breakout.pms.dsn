@@ -1,0 +1,175 @@
+(pcb "C:\Users\Phillip\Documents\GitHub\ESP-Breakout\hw\ESP-Breakout.pms.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(after 2015-mar-04 BZR unknown)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  119380 -96520  119380 -119380  154940 -119380  154940 -96520
+            119380 -96520)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "ESP8266.fat:ESP-07"
+      (place M1 134620 -107950 front 0 (PN "ESP-07"))
+    )
+    (component Pin_Headers:Pin_Header_Straight_2x04
+      (place P1 148501 -105004 front 0 (PN CONN_02X04))
+    )
+  )
+  (library
+    (image "ESP8266.fat:ESP-07"
+      (outline (path signal 150  -8000 8000  -8000 -8000))
+      (outline (path signal 150  -7000 -8000  -13000 -8000))
+      (outline (path signal 150  -13000 -8000  -13000 8000))
+      (outline (path signal 150  -13000 8000  -7000 8000))
+      (outline (path signal 150  9000 -8000  10000 -8000))
+      (outline (path signal 150  10000 -8000  10000 8000))
+      (outline (path signal 150  10000 8000  9000 8000))
+      (pin Rect[T]Pad_1650x2500_um 1 -6000 -8000)
+      (pin Rect[T]Pad_1650x2500_um 2 -4000 -8000)
+      (pin Rect[T]Pad_1650x2500_um 3 -2000 -8000)
+      (pin Rect[T]Pad_1650x2500_um 4 0 -8000)
+      (pin Rect[T]Pad_1650x2500_um 5 2000 -8000)
+      (pin Rect[T]Pad_1650x2500_um 6 4000 -8000)
+      (pin Rect[T]Pad_1650x2500_um 7 6000 -8000)
+      (pin Rect[T]Pad_1650x2500_um 8 8000 -8000)
+      (pin Rect[T]Pad_1650x2500_um 9 8000 8000)
+      (pin Rect[T]Pad_1650x2500_um 10 6000 8000)
+      (pin Rect[T]Pad_1650x2500_um 12 2000 8000)
+      (pin Rect[T]Pad_1650x2500_um 13 0 8000)
+      (pin Rect[T]Pad_1650x2500_um 14 -2000 8000)
+      (pin Rect[T]Pad_1650x2500_um 15 -4000 8000)
+      (pin Rect[T]Pad_1650x2500_um 16 -6000 8000)
+      (pin Rect[T]Pad_1650x2500_um 11 4000 8000)
+    )
+    (image Pin_Headers:Pin_Header_Straight_2x04
+      (outline (path signal 50  -1750 1750  -1750 -9400))
+      (outline (path signal 50  4300 1750  4300 -9400))
+      (outline (path signal 50  -1750 1750  4300 1750))
+      (outline (path signal 50  -1750 -9400  4300 -9400))
+      (outline (path signal 150  -1270 -1270  -1270 -8890))
+      (outline (path signal 150  -1270 -8890  3810 -8890))
+      (outline (path signal 150  3810 -8890  3810 1270))
+      (outline (path signal 150  3810 1270  1270 1270))
+      (outline (path signal 150  0 1550  -1550 1550))
+      (outline (path signal 150  1270 1270  1270 -1270))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  -1550 1550  -1550 0))
+      (pin Rect[A]Pad_1727.2x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 2 2540 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 3 0 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 4 2540 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 5 0 -5080)
+      (pin Oval[A]Pad_1727.2x1727.2_um 6 2540 -5080)
+      (pin Oval[A]Pad_1727.2x1727.2_um 7 0 -7620)
+      (pin Oval[A]Pad_1727.2x1727.2_um 8 2540 -7620)
+    )
+    (padstack Oval[A]Pad_1727.2x1727.2_um
+      (shape (path F.Cu 1727.2  0 0  0 0))
+      (shape (path In1.Cu 1727.2  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1650x2500_um
+      (shape (rect F.Cu -825 -1250 825 1250))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1727.2x1727.2_um
+      (shape (rect F.Cu -863.6 -863.6 863.6 863.6))
+      (shape (rect In1.Cu -863.6 -863.6 863.6 863.6))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle In1.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(M1-Pad1)"
+      (pins M1-1 P1-5)
+    )
+    (net "Net-(M1-Pad2)"
+      (pins M1-2)
+    )
+    (net "Net-(M1-Pad3)"
+      (pins M1-3 P1-3)
+    )
+    (net "Net-(M1-Pad4)"
+      (pins M1-4)
+    )
+    (net "Net-(M1-Pad5)"
+      (pins M1-5)
+    )
+    (net "Net-(M1-Pad6)"
+      (pins M1-6)
+    )
+    (net "Net-(M1-Pad7)"
+      (pins M1-7)
+    )
+    (net "Net-(M1-Pad8)"
+      (pins M1-8 P1-7)
+    )
+    (net "Net-(M1-Pad9)"
+      (pins M1-9 P1-2)
+    )
+    (net "Net-(M1-Pad10)"
+      (pins M1-10)
+    )
+    (net "Net-(M1-Pad12)"
+      (pins M1-12 P1-6)
+    )
+    (net "Net-(M1-Pad13)"
+      (pins M1-13)
+    )
+    (net "Net-(M1-Pad14)"
+      (pins M1-14)
+    )
+    (net "Net-(M1-Pad15)"
+      (pins M1-15 P1-8)
+    )
+    (net "Net-(M1-Pad16)"
+      (pins M1-16 P1-1)
+    )
+    (net "Net-(M1-Pad11)"
+      (pins M1-11 P1-4)
+    )
+    (class kicad_default "" "Net-(M1-Pad1)" "Net-(M1-Pad10)" "Net-(M1-Pad11)"
+      "Net-(M1-Pad12)" "Net-(M1-Pad13)" "Net-(M1-Pad14)" "Net-(M1-Pad15)"
+      "Net-(M1-Pad16)" "Net-(M1-Pad2)" "Net-(M1-Pad3)" "Net-(M1-Pad4)" "Net-(M1-Pad5)"
+      "Net-(M1-Pad6)" "Net-(M1-Pad7)" "Net-(M1-Pad8)" "Net-(M1-Pad9)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

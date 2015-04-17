@@ -10,7 +10,6 @@ LIBS:special
 LIBS:interface
 LIBS:contrib
 LIBS:esp8266
-LIBS:ESP-Breakout-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

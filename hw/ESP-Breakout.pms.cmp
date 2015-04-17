@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 4/14/2015 10:59:47 PM
+
+BeginCmp
+TimeStamp = /552DDBA6;
+Reference = M1;
+ValeurCmp = ESP-07;
+IdModule  = ESP8266.fat:ESP-07;
+EndCmp
+
+BeginCmp
+TimeStamp = /552DDC02;
+Reference = P1;
+ValeurCmp = CONN_02X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x04;
+EndCmp
+
+EndListe
